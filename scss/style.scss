@@ -1,4 +1,6 @@
-body  {
-  background: orange;
-  color: red;
+@use "./css/default.scss";
+@use "./css/header.scss";
+
+html {
+  min-width: 300px
 }
