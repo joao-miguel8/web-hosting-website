@@ -1,0 +1,206 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+:root {
+  --ff: font-family: "Roboto Slab", serif;
+}
+
+header {
+  min-width: 300px;
+  height: 50px;
+}
+
+.header-container {
+  border: 2px dashed purple;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+}
+
+.mobile-header {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.header-logo {
+  margin: 0 0 0 14px;
+}
+
+.menu-icon {
+  border: none;
+  z-index: 1000;
+  margin: 0 14px 0 0;
+}
+.menu-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.header-container__menu-container {
+  background: orange;
+  position: fixed;
+  width: clamp(300px, 50vw, 420px);
+  height: 100%;
+  top: 0;
+  right: -1%;
+}
+.header-container__menu-container a {
+  text-decoration: none;
+}
+
+.close-mobile-menu {
+  position: absolute;
+  right: 14px;
+  top: 10px;
+  padding: 8px 12px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  min-width: 300px;
+}
+
+.test {
+  height: 600px;
+  width: 40px;
+  background: red;
+}/*# sourceMappingURL=style.css.map */

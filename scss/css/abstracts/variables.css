@@ -1,0 +1,13 @@
+:root {
+  --ff: "Roboto Slab", serif;
+  --fw100: 100;
+  --fw200: 200;
+  --fw300: 300;
+  --fw400: 400;
+  --fw500: 500;
+  --fw600: 600;
+  --fw700: 700;
+  --fw900: 900;
+  --primary01: rgb(234, 129, 38);
+  --primary02: rgb(245, 33, 60);
+}/*# sourceMappingURL=variables.css.map */
