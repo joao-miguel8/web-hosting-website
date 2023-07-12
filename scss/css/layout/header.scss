@@ -48,7 +48,6 @@ margin: 0 14px 0 0;
 .header-container__menu-container {
   background: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  display: none;
   position: fixed;
   top: 0;
   right: -1%;
@@ -131,4 +130,14 @@ button:hover {
 }
 
 
+// Animation for mobile menu container:
+.js-mobile-menu-hidden {
+  transform: translate(100%);
+  transition: ease-in .3s;
+}
+
+.js-mobile-menu-shown {
+  transform: translate(0%);
+  transition: ease-out .3s;
+}
 

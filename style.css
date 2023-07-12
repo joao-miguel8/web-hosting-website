@@ -194,7 +194,6 @@ header {
 .header-container__menu-container {
   background: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  display: none;
   position: fixed;
   top: 0;
   right: -1%;
@@ -267,6 +266,16 @@ header {
 }
 .nav__account-and-phone-container button:hover {
   text-decoration: underline;
+}
+
+.js-mobile-menu-hidden {
+  transform: translate(100%);
+  transition: ease-in 0.3s;
+}
+
+.js-mobile-menu-shown {
+  transform: translate(0%);
+  transition: ease-out 0.3s;
 }
 
 html {
